@@ -11,5 +11,5 @@ def sub(a, b):
     return a - b
 
 print("Outside mymodule.py")
-if __init__ == "__main__":
+if __name__ == "__main__":
     print("Inside mymodule.py")
